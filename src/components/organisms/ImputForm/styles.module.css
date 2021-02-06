@@ -1,0 +1,7 @@
+.container{
+    display: grid;
+    align-items: center; 
+    font-size: 15px;
+    margin: 10px;
+
+}

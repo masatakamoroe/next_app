@@ -1,0 +1,15 @@
+import React from "react";
+import CheckboxWithLabel from "components/molecules/CheckboxWithLabel";
+import {SecondaryButton} from "components/atoms";
+import styles from "./styles.module.css";
+
+const CheckButton: React.VFC = () => {
+  return (
+      <div className={styles.container}>
+      <CheckboxWithLabel text= "Remember me" />
+      <SecondaryButton text= "ForgotPassword" />
+    </div>
+  );
+};
+
+export default CheckButton;
