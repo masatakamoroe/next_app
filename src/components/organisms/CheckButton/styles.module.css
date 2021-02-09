@@ -1,8 +1,0 @@
-.container{
-    color: #43425D;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 150px 150px;
-    gap: 5px;
-    margin: 50px -60px 50px;
-}

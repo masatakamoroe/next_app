@@ -1,13 +1,13 @@
 import React from "react";
 import TextboxWithLabel from "components/molecules/TextboxWithLabel";
-import styles from "./styles.module.css";
+import styles from "./styles.module.sass";
 
 
 const InputForm: React.VFC = () => {
   return (
     <div className={styles.container}>
-      <TextboxWithLabel text= "UserName" />
-      <TextboxWithLabel text= "Password" />
+      <TextboxWithLabel text="UserName" />
+      <TextboxWithLabel text="Password" />
     </div>
   );
 };

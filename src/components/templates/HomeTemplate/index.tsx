@@ -1,8 +1,8 @@
 import React from "react";
-import {PrimaryButton} from "components/atoms";
+import { PrimaryButton } from "components/atoms";
 import InputForm from "components/organisms/ImputForm";
 import CheckButton from "components/organisms/CheckButton";
-import styles from "./styles.module.css";
+import styles from "./styles.module.sass";
 import Header from "components/organisms/Header";
 
 
@@ -11,8 +11,8 @@ const HomeTemplate: React.VFC = () => {
     <div className={styles.container}>
       <Header />
       <InputForm />
-      <CheckButton/>
-      <PrimaryButton text="LOGIN"/>
+      <CheckButton />
+      <PrimaryButton text="LOGIN" />
     </div>
   );
 };
