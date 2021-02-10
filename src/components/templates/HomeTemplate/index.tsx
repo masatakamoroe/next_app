@@ -1,20 +1,13 @@
 import React from "react";
-import { PrimaryButton } from "components/atoms";
-import InputForm from "components/organisms/ImputForm";
-import CheckButton from "components/organisms/CheckButton";
+import Table from "components/organisms/Table";
 import styles from "./styles.module.sass";
-import Header from "components/organisms/Header";
-
 
 const HomeTemplate: React.VFC = () => {
-  return (
-    <div className={styles.container}>
-      <Header />
-      <InputForm />
-      <CheckButton />
-      <PrimaryButton text="LOGIN" />
-    </div>
-  );
+    return (
+        <div className={styles.container}>
+            <Table />
+        </div>
+    );
 };
 
 export default HomeTemplate;
