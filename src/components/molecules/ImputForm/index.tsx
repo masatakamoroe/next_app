@@ -1,5 +1,5 @@
 import React from "react";
-import TextboxWithLabel from "components/molecules/TextboxWithLabel";
+import { TextboxWithLabel } from "components/molecules";
 import styles from "./styles.module.sass";
 
 

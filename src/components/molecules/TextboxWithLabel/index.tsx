@@ -1,6 +1,5 @@
 import React from "react";
-import Label from "components/atoms/Label";
-import Textbox from "components/atoms/Textbox";
+import { Label, Textbox } from "components/atoms";
 import styles from "./styles.module.sass";
 
 interface Props {

@@ -1,6 +1,5 @@
 import React from "react";
-import Label from "components/atoms/Label";
-import Checkbox from "components/atoms/Checkbox";
+import { Label, Checkbox, } from "components/atoms";
 import styles from "./styles.module.sass";
 
 interface Props {

@@ -1,5 +1,5 @@
 import React from "react";
-import Table from "components/organisms/Table";
+import { Table } from "components/organisms";
 import styles from "./styles.module.sass";
 
 const HomeTemplate: React.VFC = () => {
