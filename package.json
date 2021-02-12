@@ -1,6 +1,7 @@
 {
   "name": "next_app",
   "version": "0.1.0",
+  "license": "Apache-2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,13 +9,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "10.0.5",
+    "node-sass": "^5.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
-    "@types/node": "^14.14.20",
-    "@types/react": "^17.0.0",
+    "@types/node": "^14.14.25",
+    "@types/react": "^17.0.1",
     "typescript": "^4.1.3"
   }
 }
