@@ -5,8 +5,8 @@ interface Props {
     text: string;
 }
 
-const Textbox: React.VFC<Props> = ({ text }) => {
+const SecondaryTextbox: React.VFC<Props> = ({ text }) => {
     return <input className={styles.textbox} type="text" placeholder={text} />
 };
 
-export default Textbox;
+export default SecondaryTextbox;
