@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.sass";
 import { SecondaryTextbox } from "components/atoms";
 
-const UserDateForm: React.VFC = () => {
+const UserDataForm: React.VFC = () => {
     return (
         <div className={styles.container}>
             <SecondaryTextbox text="Username" />
@@ -13,4 +13,4 @@ const UserDateForm: React.VFC = () => {
     );
 };
 
-export default UserDateForm;
+export default UserDataForm;
