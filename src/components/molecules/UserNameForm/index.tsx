@@ -11,6 +11,4 @@ const UserNameForm: React.VFC = () => {
     );
 };
 
-
 export default UserNameForm;
-

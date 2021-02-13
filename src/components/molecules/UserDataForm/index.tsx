@@ -13,5 +13,4 @@ const UserDateForm: React.VFC = () => {
     );
 };
 
-
 export default UserDateForm;
