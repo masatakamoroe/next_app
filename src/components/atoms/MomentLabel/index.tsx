@@ -1,10 +1,13 @@
 import React from "react";
-import moment from "moment";
+import Moment from "react-moment";
 import styles from "./styles.module.sass";
 
-const MomentLabel: React.VFC = () => {
-    return <p className={styles.title}>{moment().format('MMMM Do YYYY')}</p>;
+interface Props {
+    format: string;
+}
 
+const MomentLabel: React.VFC<Props> = ({ format }) => {
+    return <Moment format={format} className={styles.format}></Moment>
 };
 
 export default MomentLabel;

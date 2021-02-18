@@ -10,4 +10,5 @@ export { default as TopHeader } from "./TopHeader"
 export { default as TodoAreaLabel } from "./TodoAreaLabel"
 export { default as SingleTopLabelForm } from "./SingleTopLabelForm"
 export { default as TopLabelForm } from "./TopLableForm"
+export { default as Icon } from "../molecules/Icon"
 
