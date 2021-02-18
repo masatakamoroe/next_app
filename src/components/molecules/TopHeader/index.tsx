@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./styles.module.sass";
 import { MomentLabel } from "components/atoms";
-import { Icon } from "components/molecules";
+import { HeaderIcons } from "components/molecules";
 
 const TopHeader: React.VFC = () => {
     return (
         <div className={styles.container}>
-            <Icon />
+            <HeaderIcons />
             <MomentLabel format="MMMM Do YYYY" />
         </div>
     );
