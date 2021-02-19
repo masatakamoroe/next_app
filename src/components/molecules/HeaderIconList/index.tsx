@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.sass";
 import { FaHome, FaPen, FaPlus, FaCalendarAlt } from 'react-icons/fa';
 
-const Icon: React.VFC = () => {
+const HeaderIconList: React.VFC = () => {
     return (
         <div className={styles.container}>
             <FaHome />
@@ -13,4 +13,4 @@ const Icon: React.VFC = () => {
     );
 };
 
-export default Icon;
+export default HeaderIconList;
