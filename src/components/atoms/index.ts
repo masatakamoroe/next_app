@@ -5,3 +5,6 @@ export { default as Label } from "./Label";
 export { default as Textbox } from "./Textbox";
 export { default as SecondaryTextbox } from "./SecondaryTextbox";
 export { default as SecondaryLabel } from "./SecondaryLabel";
+export { default as MomentLabel } from "./MomentLabel";
+export { default as TimeLabel } from "./TimeLabel";
+export { default as UnderLinedLabel } from "./UnderLinedLabel";
