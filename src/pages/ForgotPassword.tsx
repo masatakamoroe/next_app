@@ -1,7 +1,9 @@
 import { ForgotPasswordTemplate } from "components/templates";
 
-export default function Forgotpassword() {
+const Forgotpassword: React.VFC = () => {
     return (
         <ForgotPasswordTemplate />
     );
 };
+
+export default Forgotpassword;
