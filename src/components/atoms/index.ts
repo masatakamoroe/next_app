@@ -8,3 +8,6 @@ export { default as SecondaryLabel } from "./SecondaryLabel";
 export { default as MomentLabel } from "./MomentLabel";
 export { default as TimeLabel } from "./TimeLabel";
 export { default as UnderLinedLabel } from "./UnderLinedLabel";
+export { default as Textarea } from "./Textarea";
+export { default as SimpleDatePicker } from "./SimpleDatePicker";
+export { default as UnderLinedTextbox } from "./UnderLinedTextbox";
