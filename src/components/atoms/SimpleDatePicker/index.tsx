@@ -5,8 +5,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const SimpleDatePicker: React.VFC = () => {
 
-    const [, setStartDate] = useState<Date | [Date, Date] | null>(new Date());
-    const [startDate] = useState<Date | null | undefined>(new Date());
+    const [startDate, setStartDate] = useState<Date | null>(new Date());
 
     return (
         <DatePicker

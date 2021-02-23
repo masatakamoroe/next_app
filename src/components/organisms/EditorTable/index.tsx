@@ -1,5 +1,4 @@
 import React from "react";
-import { PrimaryButton, SimpleDatePicker } from "components/atoms";
 import { EditorIconList, EditorForm, EditorButtonForm } from "components/molecules";
 import styles from "./styles.module.sass";
 
