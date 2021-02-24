@@ -1,9 +1,9 @@
 import { TopTemplate } from "components/templates";
 
-const Top: React.VFC = () => {
+const top: React.VFC = () => {
     return (
         <TopTemplate />
     );
 };
 
-export default Top;
+export default top;
