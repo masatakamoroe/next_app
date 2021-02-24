@@ -4,14 +4,12 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const SimpleDatePicker: React.VFC = () => {
-
-    const [startDate, setStartDate] = useState<Date | null>(new Date());
-
+    const [startDate, setStartDate] = useState(new Date());
     return (
         <DatePicker
             className={styles.container}
             selected={startDate}
-            onChange={date => setStartDate(date)}
+            onChange={(date: Date) => setStartDate(date)}
         />
     );
 };
