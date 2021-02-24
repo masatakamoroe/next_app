@@ -1,9 +1,9 @@
 import { SignUpTemplate } from "components/templates";
 
-const Signup: React.VFC = () => {
+const signup: React.VFC = () => {
     return (
         <SignUpTemplate />
     );
 };
 
-export default Signup;
+export default signup;

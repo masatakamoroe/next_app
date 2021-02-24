@@ -1,9 +1,9 @@
 import { EditorTemplate } from "components/templates";
 
-const Editor: React.VFC = () => {
+const editor: React.VFC = () => {
     return (
         <EditorTemplate />
     );
 };
 
-export default Editor;
+export default editor;

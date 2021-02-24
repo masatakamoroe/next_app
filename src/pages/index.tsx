@@ -1,9 +1,9 @@
 import { HomeTemplate } from "components/templates";
 
-const Home: React.VFC = () => {
+const home: React.VFC = () => {
   return (
     <HomeTemplate />
   );
 };
 
-export default Home;
+export default home;
