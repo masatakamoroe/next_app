@@ -7,6 +7,12 @@ $silver: #C0C0C0
 $common_font: 'Athelas',sans-serif
 
 /*MediaQuely*/
-$mb: "only screen and (max-width:640px)"
-$tablet: "only screen and (min-width:641px) and (max-width:959px)"
-$pc: "only screen and (min-width:960px)"
+$breakpoint: 1200px
+
+@mixin phone
+    @media (max-width: $breakpoint)
+        @content
+
+@mixin desktop
+    @media (min-width: $breakpoint)
+        @content
