@@ -2,5 +2,17 @@
 $navy: #43425D
 $super_blue: #E9E9F0
 $silver: #C0C0C0
+
 /*font*/
 $common_font: 'Athelas',sans-serif
+
+/*MediaQuely*/
+$breakpoint: 1200px
+
+@mixin phone
+    @media (max-width: $breakpoint)
+        @content
+
+@mixin desktop
+    @media (min-width: $breakpoint)
+        @content
