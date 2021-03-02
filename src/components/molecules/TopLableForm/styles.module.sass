@@ -1,3 +1,11 @@
+@import "../../global.module.sass"
+
 .container
-    display: grid
-    gap: 1rem
+    @include desktop
+        display: grid
+        gap: 1rem
+
+    @include phone
+        display: grid
+        gap: 1rem
+        margin: -1rem 1rem 0 0

@@ -1,2 +1,8 @@
+@import "../../global.module.sass"
+
 .container
-    align-items: center
+    @include desktop
+        align-items: center
+
+    @include phone
+        align-items: center

@@ -6,7 +6,7 @@ interface Props {
 }
 
 const SecondaryTextbox: React.VFC<Props> = ({ text }) => {
-    return <input className={styles.textbox} type="text" placeholder={text} />
+    return <input className={styles.secondaryTextbox} type="text" placeholder={text} />
 };
 
 export default SecondaryTextbox;

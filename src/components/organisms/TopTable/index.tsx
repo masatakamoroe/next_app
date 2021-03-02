@@ -1,5 +1,5 @@
 import React from "react";
-import { TopHeader, TopLabelForm, } from "components/molecules";
+import { TopHeader, TopLabelForm, PhoneIconList } from "components/molecules";
 import styles from "./styles.module.sass";
 
 const TopTable: React.VFC = () => {
@@ -7,6 +7,7 @@ const TopTable: React.VFC = () => {
         <div className={styles.container}>
             <TopHeader />
             <TopLabelForm />
+            <PhoneIconList />
         </div>
     );
 };

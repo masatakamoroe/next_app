@@ -1,4 +1,10 @@
+@import "../../global.module.sass"
 .container
-    display: flex
-    align-items: center
-    font-size: 0.16rem
+    @include desktop
+        display: flex
+        align-items: center
+        font-size: 0.16rem
+    @include phone
+        display: flex
+        align-items: center
+        font-size: 0.16rem

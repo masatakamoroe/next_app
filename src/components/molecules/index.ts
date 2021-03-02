@@ -18,3 +18,4 @@ export { default as SimpleDatePickerWithLabel } from "./SimpleDatePickerWithLabe
 export { default as UnderLinedTextboxWithLabel } from "./UnderLinedTextboxWithLabel"
 export { default as EditorButtonForm } from "./EditorButtonForm"
 export { default as CalendarIconList } from "./CalendarIconList"
+export { default as PhoneIconList } from "./PhoneIconList"

@@ -1,3 +1,7 @@
+@import "../../global.module.sass"
 .container
-    display: flex
-    gap: 0.1rem
+    @include desktop
+        display: flex
+        gap: 0.1rem
+    @include phone
+        display: flex

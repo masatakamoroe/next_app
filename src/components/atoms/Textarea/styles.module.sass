@@ -1,12 +1,27 @@
 @import "../../global.module.sass"
 
 .textarea
-    resize: none
-    width: 2.5rem
-    height: 1rem
-    color: $navy
-    font-family: $common_font
-    /*border*/
-    border: 0
-    border-bottom: 0.02rem solid $super_blue
-    outline: none
+    @include desktop
+        resize: none
+        width: 2.5rem
+        height: 1rem
+        color: $navy
+        font-family: $common_font
+        /*border*/
+        border: 0
+        border-bottom: 0.02rem solid $super_blue
+        outline: none
+    @include phone
+        resize: none
+        width: 2.5rem
+        height: 1rem
+        color: $navy
+        font-family: $common_font
+        /*border*/
+        border: 0
+        width: 8.5rem
+        border-bottom: 0.05rem solid $navy
+        outline: none
+        margin: 1rem 0 0 0
+        textarea
+            font-size: 10rem
