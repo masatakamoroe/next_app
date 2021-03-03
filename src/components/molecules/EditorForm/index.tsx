@@ -6,8 +6,8 @@ const EditorForm: React.VFC = () => {
     return (
         <div className={styles.container}>
             <UnderLinedTextboxWithLabel text="Title" />
-            <TextareaWithLabel text="Memo" />
             <UnderLinedTextboxWithLabel text="Area" />
+            <TextareaWithLabel text="Memo" />
         </div>
     );
 };

@@ -1,0 +1,20 @@
+@import  "../../global.module.sass"
+
+.Textbox
+    @include desktop
+        color: $navy
+        font-family: $common_font
+        /*border*/
+        border: 0
+        border-bottom: 0.02rem solid
+        outline: none
+    @include phone
+        color: $super_blue
+        font-family: $common_font
+        font-size: 0.15rem
+        margin: 0 0 0 0rem
+            /*border*/
+        width: 3rem
+        border: 0
+        border-bottom: 0.02rem solid
+        outline: none

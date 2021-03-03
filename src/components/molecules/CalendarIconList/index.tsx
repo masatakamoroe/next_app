@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.sass";
 import { FaHome, FaPlus } from 'react-icons/fa';
 
-const CalendarIconList: React.VFC = () => {
+const CalendarFooterIcon: React.VFC = () => {
     return (
         <div className={styles.container}>
             <FaHome />
@@ -11,4 +11,4 @@ const CalendarIconList: React.VFC = () => {
     );
 };
 
-export default CalendarIconList;
+export default CalendarFooterIcon;

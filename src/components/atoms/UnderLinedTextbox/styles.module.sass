@@ -1,19 +1,15 @@
 @import  "../../global.module.sass"
 
 .container
+    color: $navy
+    font-family: $common_font
+    /*border*/
+    border: 0
+    border-bottom: 0.02rem solid $super_blue
+    outline: none
     @include desktop
-        color: $navy
-        font-family: $common_font
         /*border*/
-        border: 0
         width: 2.5rem
-        border-bottom: 0.02rem solid $super_blue
-        outline: none
     @include phone
-        color: $navy
-        font-family: $common_font
         /*border*/
-        border: 0
-        width: 9rem
-        border-bottom: 0.05rem solid $navy
-        outline: none
+        width: 3rem
