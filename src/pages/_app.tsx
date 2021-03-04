@@ -1,7 +1,8 @@
-import React from 'react'
-import '../../styles/globals.sass'
+import React from 'react';
+import '../../styles/globals.sass';
+import type { AppProps } from "next/app";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
 
