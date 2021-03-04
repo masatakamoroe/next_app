@@ -3,13 +3,22 @@
 .container
     font-family: $common_font
     color: $navy
+    border: 0 !important
     height: 4rem
     width: 7rem
     font-size: 0.3rem
     margin: 1rem 0 0 5rem
-    border: 0 !important
-
     button
         font-family: $common_font
         border-radius: 0.5rem
         line-height: 0.3rem
+        @include phone
+            font-size: 0.5rem
+            border-radius: 5rem
+            line-height: 0.7rem
+    @include phone
+        display: grid
+        height: 27.6rem
+        font-size: 1rem
+        margin: 1rem 0 0 4rem
+        padding: 5rem 0 10rem 0

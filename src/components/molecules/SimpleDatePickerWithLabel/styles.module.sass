@@ -1,5 +1,11 @@
+@import "../../global.module.sass"
+
 .container
     display: flex
-    gap: 0.2rem
     align-items: center
+    gap: 0.2rem
     font-size: 0.16rem
+    @include phone
+        gap: 0.5rem
+        font-size: 0.2rem
+        margin-left: -1.7rem

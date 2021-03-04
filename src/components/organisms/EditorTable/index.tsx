@@ -1,5 +1,5 @@
 import React from "react";
-import { EditorIconList, EditorForm, EditorButtonForm } from "components/molecules";
+import { EditorIconList, EditorForm, EditorButtonForm, EditorFooterIconList } from "components/molecules";
 import styles from "./styles.module.sass";
 
 const EditorTable: React.VFC = () => {
@@ -8,6 +8,7 @@ const EditorTable: React.VFC = () => {
             <EditorIconList />
             <EditorForm />
             <EditorButtonForm />
+            <EditorFooterIconList />
         </div>
     );
 };
